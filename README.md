@@ -79,7 +79,7 @@ app.put("/repositories/:id",  (request, response) => {
 
 #### *should not be able to update a repository that does not exist*
 
-n order for this test to pass, you must validate in your update route whether the repository id sent by the URL exists or not. If not, return an error with status 400.
+In order for this test to pass, you must validate in your update route whether the repository id sent by the URL exists or not. If not, return an error with status 400.
 
 ```js
 if(repositoryIndex < 0){
